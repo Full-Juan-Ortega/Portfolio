@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Voto Electronico - Login</title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0"/>
+    <meta name="description" content="Accede a #Voto para saber las ultimas votas con tu email y la clave"/>
+    <meta name="keywords" content="VotoElectronico, EstadisticasVoto, VotaRemoto, voto"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
+    <link rel="shortcut icon" href="img/logos/icono_Mesa_de_trabajo1.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/estilo_lyr.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    <link href="bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body>
+    <!-- INICIO NAVBAR-->
+     <header>
+         <nav class="navbar navbar-expand-sm navbar-light">
+             <div class="container-fluid">
+                <a href="index.html" class="navbar-header"><img src="img/logos/logotipo1_Mesa_de_trabajo1.png" alt="Logo de la Pagina"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link" href="loginvista.html">Acceso</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="registrarvista.html">Registro</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="contacto.html">Contacto</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
+                          </li>
+                     </ul>
+                 </div>
+             </div>	
+         </nav>
+         <!-- FIN NAVBAR-->
+         <hr class="divisor"> 
+         <!-- BREADCRUMB-->     
+  <div class="head pb-1" style= "padding-left: 20px;">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb breadcrumb-pos">
+          <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Inicio</a></li>
+          <li class="breadcrumb-item active" style="color:black" aria-current="page">Acceso</li>
+        </ol>
+      </nav>
+    </div>
+    <!-- FIN BREADCRUMB-->
+     
+     </header>       
+      <main>
+        <div class="container" style="text-align: center;">
+          <a href="index.html"><img src="img/logos/logotipo_Mesa_de_trabajo1.png" alt="logo_inicio"/></a> 
+       </div>
+      <section id="register" class="mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 com-md-4 mx-auto text-center pt-5">
+              <h1 class="h3 mb-3 font-weight-normal color-title">Iniciar Sesión</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 com-md-4 mx-auto">
+              <div class="card_register">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <form class="box" action="validar.php" method="post">  
+                      <div class="form-group">
+                        <label class="color-title"> Correo </label>
+                        <input
+                          type="text"
+                          id="correo"
+                          name="correo"
+                          class="form-control"
+                          placeholder="Correo"
+                          required
+                        />
+                      </div>
+  
+                      <div class="form-group">
+                        <label class="color-title">Contraseña</label>
+                        <input
+                          type="password"
+                          id="contrasena"
+                          name="contrasena"
+                          class="form-control"
+                          placeholder="Contraseña"
+                          required
+                        />
+                      
+  
+                      <button
+                        type="submit"
+                        class="btn btn-lg w-100 btn-registrar btn-block button"
+                      >
+                        Iniciar sesión
+                      </button>
+                      
+                      <p id="sin-cuenta">
+                        ¿No tienes una cuenta?
+                        <a class="link" href="registrarvista.html">Registrate </a>
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </main>
+      <!-- INICIO FOOTER-->
+      <footer class="bg-dark text-center">
+          <div class="container p-4 rounded-social-buttons">
+            <div class="mb-3">
+               <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+               <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+               <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+               <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+               <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>                 
+                 <div class="row p-4 footer-hover">
+                  <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                      <ul class="list-unstyled mb-0">
+                         <li>
+                            <a href="loginvista.html" class="text-decoration-none">Acceso</a>
+                         </li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                      <ul class="list-unstyled mb-0">
+                         <li>
+                            <a href="registrarvista.html" class="text-decoration-none">Registro</a>
+                         </li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-4 col-md-4 mb-4 mb-md-0">         
+                       <ul class="list-unstyled mb-0">
+                           <li>
+                               <a href="index.html" class="text-decoration-none">Inicio</a>
+                           </li>
+                       </ul>
+                   </div>
+                   <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                       <ul class="list-unstyled mb-0">
+                           <li>
+                               <a href="contacto.html" class="text-decoration-none">Contacto</a>
+                           </li>
+                       </ul>
+                   </div>
+                   <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                       <ul class="list-unstyled mb-0">
+                           <li>
+                               <a href="sobrenosotros.html" class="text-decoration-none">Sobre nosotros</a>
+                           </li>
+                       </ul>
+                   </div>
+                 </div>
+              </div>
+         </div>
+         <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+             Voto electronico 2021 | Todos los derechos reservados.
+         </div>
+      </footer>
+      <!-- FIN FOOTER-->
+      <script src="js/funcionesGrupo06.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ </body>
+</html>
