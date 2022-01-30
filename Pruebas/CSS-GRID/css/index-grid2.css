@@ -1,0 +1,23 @@
+div.grid-container{
+
+    display:grid;
+    grid-template-columns: 300px 300px ;
+    grid-template-rows: repeat(3,400px);;
+    grid-template-areas: "header header"
+                         "header2 nav"   ;
+    grid-gap: 10px;
+
+}
+
+
+div.grid-container .header{
+
+    background-color:lightcoral;
+    grid-column-start:header;
+    grid-column-end:header;
+}
+div.grid-container .header2{
+
+    grid-column-start:header2;
+    grid-column-end:header2;
+}
